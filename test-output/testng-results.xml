@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15053" started-at="2022-11-02T06:45:57Z" finished-at="2022-11-02T06:46:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15053" started-at="2022-11-02T06:45:57Z" finished-at="2022-11-02T06:46:12Z">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:tests.LoginTest@506e6d5e]" name="launchApp" is-config="true" duration-ms="5187" started-at="2022-11-01T23:45:57Z" finished-at="2022-11-01T23:46:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="TC_01_verifyLoginFeatureWithValid()[pri:1, instance:tests.LoginTest@506e6d5e]" name="TC_01_verifyLoginFeatureWithValid" duration-ms="3219" started-at="2022-11-01T23:46:02Z" finished-at="2022-11-01T23:46:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_verifyLoginFeatureWithValid -->
+        <test-method status="PASS" signature="verifyAppLicationTitle()[pri:2, instance:tests.LoginTest@506e6d5e]" name="verifyAppLicationTitle" duration-ms="19" started-at="2022-11-01T23:46:05Z" finished-at="2022-11-01T23:46:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppLicationTitle -->
+        <test-method status="PASS" signature="verifyLogout()[pri:3, instance:tests.LoginTest@506e6d5e]" name="verifyLogout" duration-ms="1260" started-at="2022-11-01T23:46:05Z" finished-at="2022-11-01T23:46:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogout -->
+        <test-method status="PASS" signature="closingApp()[pri:0, instance:tests.LoginTest@506e6d5e]" name="closingApp" is-config="true" duration-ms="5333" started-at="2022-11-01T23:46:07Z" finished-at="2022-11-01T23:46:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingApp -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

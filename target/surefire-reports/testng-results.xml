@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-03T02:43:59 PDT" name="Suite" finished-at="2022-11-03T02:44:56 PDT" duration-ms="57833">
+    <groups>
+    </groups>
+    <test started-at="2022-11-03T02:43:59 PDT" name="Test" finished-at="2022-11-03T02:44:56 PDT" duration-ms="57833">
+      <class name="dataDrivenTest.NOPComLogin">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:dataDrivenTest.NOPComLogin@429bffaa]" started-at="2022-11-03T02:43:59 PDT" name="launchApp" finished-at="2022-11-03T02:44:02 PDT" duration-ms="3410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="verifyLoginWithInValidUser(java.lang.String,java.lang.String)[pri:1, instance:dataDrivenTest.NOPComLogin@429bffaa]" started-at="2022-11-03T02:44:02 PDT" name="verifyLoginWithInValidUser" description="Login with Invalid user crednetails" data-provider="sampleData" finished-at="2022-11-03T02:44:13 PDT" duration-ms="11411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prem@yahoomail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInValidUser -->
+        <test-method signature="verifyLoginWithInValidUser(java.lang.String,java.lang.String)[pri:1, instance:dataDrivenTest.NOPComLogin@429bffaa]" started-at="2022-11-03T02:44:13 PDT" name="verifyLoginWithInValidUser" description="Login with Invalid user crednetails" data-provider="sampleData" finished-at="2022-11-03T02:44:24 PDT" duration-ms="10812" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rupam@google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInValidUser -->
+        <test-method signature="verifyLoginWithInValidUser(java.lang.String,java.lang.String)[pri:1, instance:dataDrivenTest.NOPComLogin@429bffaa]" started-at="2022-11-03T02:44:24 PDT" name="verifyLoginWithInValidUser" description="Login with Invalid user crednetails" data-provider="sampleData" finished-at="2022-11-03T02:44:35 PDT" duration-ms="10864" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shivani@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInValidUser -->
+        <test-method is-config="true" signature="closingApp()[pri:0, instance:dataDrivenTest.NOPComLogin@429bffaa]" started-at="2022-11-03T02:44:35 PDT" name="closingApp" finished-at="2022-11-03T02:44:56 PDT" duration-ms="21296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingApp -->
+      </class> <!-- dataDrivenTest.NOPComLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
